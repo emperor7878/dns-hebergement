@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>INSCRIPTION</title>
+    
+</head>
+<body>
+  
+  <!-- message de validation -->
+  <p class="zone-message"></p>
+
+  <!-- formulaire -->
+  <label>Nom, Prénom</label><br>
+    <input type="text" placeholder="Votre nom & prénom (3 caractères min.)" class="nom" />
+<br><br>
+
+  <label>Âge</label><br>
+    <input type="number" placeholder="Votre âge" class="age" />
+<br><br>
+    <label>Téléphone</label><br>
+    <input type="number" placeholder="Votre numéro de téléphone" class="tel" />
+<br><br>
+    <label>Pays</label><br>
+    <input type="country" placeholder="Votre pays" class="country" />
+<br><br>
+  <label>Adresse mail</label><br>
+  <input type="email" placeholder="Votre adresse mail" class="email" />
+<br><br>
+  <label>Tapez votre texte</label><br>
+  <textarea placeholder="Votre texte ici" class="texte"></textarea>
+    
+                
+<br>  
+  <button class="bouton-validation" onclick=validation()>Envoyer</button>
+  
+  <script src="js/script1.js"></script>
+</body> 
+</html>
