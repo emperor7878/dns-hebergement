@@ -1,0 +1,62 @@
+* {
+  font-family: 'Arial';
+  margin: 0;
+  padding: 0;
+}
+
+.icone-menu, .icone-fermer {
+  cursor: pointer;
+  width: 30px;
+  /* on position l'icone en haut à gauche */
+  left: 30px;
+  position: absolute;
+  top: 30px;
+
+}
+
+.visible {
+  /* on affiche le menu */
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+    margin-left: 36%;  
+}
+
+.nav_li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 8px;
+    padding-left: 30.7px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover, a:active{
+    color: white;
+}
+
